@@ -6,3 +6,5 @@
 [1. Resolución de sistemas de ecuaciones](https://colab.research.google.com/github/josorio398/ALGEBRA-LINEAL-CON-PYTHON/blob/master/%C3%81lgebra_lineal_con_Python_Operaciones_con_matrices.ipynb)
 
 [2. Operaciones con matrices](https://colab.research.google.com/github/josorio398/ALGEBRA-LINEAL-CON-PYTHON/blob/master/%C3%81lgebra_lineal_con_Python_Operaciones_con_matrices.ipynb)
+
+[2. Determinantes y regla de cramer](https://colab.research.google.com/github/josorio398/ALGEBRA-LINEAL-CON-PYTHON/blob/master/%C3%81lgebra_lineal_con_Python_Operaciones_con_matrices.ipynb)
