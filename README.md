@@ -8,3 +8,5 @@
 [2. Operaciones con matrices](https://colab.research.google.com/github/josorio398/ALGEBRA-LINEAL-CON-PYTHON/blob/master/%C3%81lgebra_lineal_con_Python_Operaciones_con_matrices.ipynb)
 
 [3. Determinantes y regla de cramer](https://colab.research.google.com/github/josorio398/ALGEBRA-LINEAL-CON-PYTHON/blob/master/%C3%81lgebra_lineal_con_Python_Determinantes_y_regla_de_cramer.ipynb)
+
+[4. Operaciones con vectores, rectas y planos en el espacio](https://colab.research.google.com/github/josorio398/ALGEBRA-LINEAL-CON-PYTHON/blob/master/%C3%81lgebra_lineal_con_Python_Determinantes_y_regla_de_cramer.ipynb)
