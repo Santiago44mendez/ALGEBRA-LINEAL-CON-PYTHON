@@ -16,4 +16,4 @@
 
 ### MÓDULOS PARA LA REPRESENTACIÓN DE VECTORES EN PYTHON
 
-[5. Representación de vectores en el plano]()
+[5. Módulo para la representación de vectores en el plano]()
