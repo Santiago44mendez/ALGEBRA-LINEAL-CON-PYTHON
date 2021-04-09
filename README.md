@@ -13,4 +13,4 @@
 
 [4. Rectas y planos en el espacio]()
 
-### Módulo para la representación de vectores
+### MÓDULOS PARA LA REPRESENTACIÓN DE VECTORES EN PYTHON
