@@ -61,6 +61,6 @@ def plotvectors2D(*args):
     fig.update_xaxes(title = "$\large{x}$", title_font=dict(size=30, family='latex', color='rgb(1,21,51)'),zerolinecolor="black",autorange = True,showgrid = True) 
     fig.update_yaxes(title = "$\large{y}$", title_font=dict(size=30, family='latex', color='rgb(1,21,51)'), zerolinecolor= "black",autorange = True,showgrid = True) 
     fig.update_layout(font=dict(family="latex",size=20,color="black"))
-    fig.update_layout(title= "Representación en el plano",title_font=dict(size=5, family='latex', color='rgb(1,21,51)'),title_x=0.5,width=480, height=480)
+    fig.update_layout(title= "",title_font=dict(size=5, family='latex', color='rgb(1,21,51)'),title_x=0.5,width=480, height=480)
     fig.update_layout(legend=dict(orientation="h",y=1.2,x=0.03),title_font=dict(size=30, color='rgb(1,21,51)'),showlegend=True)
     fig.show()
