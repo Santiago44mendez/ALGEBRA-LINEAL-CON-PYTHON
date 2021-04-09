@@ -1,4 +1,4 @@
-# ALGEBRA LINEAL CON PYTHON ( módulo SymPy y Plotly)
+# ALGEBRA LINEAL CON PYTHON ( módulo SymPy y Plotly )
 
 <p style="text-align: justify;">Este repositorio tiene como finalidad abordar los concept&oacute;s b&aacute;sicos de un curso de &aacute;lgebra lineal desde el lenguaje de programaci&oacute;n python usando la librer&iacute;a SymPy y servir como herramienta para la validaci&oacute;n del conocimiento y la resoluci&oacute;n de problemas relacionados con el &aacute;lgebra lineal.</p>
 
