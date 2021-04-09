@@ -12,7 +12,7 @@
 
 [4. Operaciones con vectores](https://colab.research.google.com/github/josorio398/ALGEBRA-LINEAL-CON-PYTHON/blob/master/%C3%81lgebra_lineal_con_Python_Determinantes_y_regla_de_cramer.ipynb)
 
-[4. Rectas y planos en el espacio]()
+[4. Rectas y planos en el espacio](https://colab.research.google.com/github/josorio398/ALGEBRA-LINEAL-CON-PYTHON/blob/master/%C3%81lgebra_lineal_con_Python_Rectas_y_planos_en_el_espacio.ipynb)
 
 ### MÓDULOS PARA LA REPRESENTACIÓN DE VECTORES EN PYTHON
 
