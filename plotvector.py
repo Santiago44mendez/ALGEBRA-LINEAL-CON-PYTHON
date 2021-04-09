@@ -57,10 +57,11 @@ def plotvectors2D(*args):
         arrowwidth=2.3,
         arrowcolor = color)
         
+    fig.update_layout(showlegend=True)    
     fig.add_trace(go.Scatter(x=[0],y=[0],mode='markers',marker=dict(color="gray",size=11.5),showlegend=False,opacity=1,name="origen"))
     fig.update_xaxes(title = "$\large{x}$", title_font=dict(size=30, family='latex', color='rgb(1,21,51)'),zerolinecolor="black",autorange = True,showgrid = True) 
     fig.update_yaxes(title = "$\large{y}$", title_font=dict(size=30, family='latex', color='rgb(1,21,51)'), zerolinecolor= "black",autorange = True,showgrid = True) 
     fig.update_layout(font=dict(family="latex",size=20,color="black"))
-    fig.update_layout(title= "",title_font=dict(size=5, family='latex', color='rgb(1,21,51)'),title_x=0.5,width=480, height=480)
+    #fig.update_layout(title= "",title_font=dict(size=5, family='latex', color='rgb(1,21,51)'),title_x=0.5,width=480, height=480)
     fig.update_layout(legend=dict(orientation="h",y=1.2,x=0.03),title_font=dict(size=30, color='rgb(1,21,51)'),showlegend=True)
     fig.show()
