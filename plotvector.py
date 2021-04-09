@@ -63,5 +63,5 @@ def plotvectors2D(*args):
     fig.update_yaxes(title = "$\large{y}$", title_font=dict(size=30, family='latex', color='rgb(1,21,51)'), zerolinecolor= "black",autorange = True,showgrid = True) 
     fig.update_layout(font=dict(family="latex",size=20,color="black"))
     #fig.update_layout(title= "",title_font=dict(size=5, family='latex', color='rgb(1,21,51)'),title_x=0.5)
-    fig.update_layout(showlegend=False,width=460, height=460)
+    fig.update_layout(showlegend=True,width=460, height=460)
     fig.show()
