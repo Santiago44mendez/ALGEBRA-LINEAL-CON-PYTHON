@@ -1109,10 +1109,9 @@ def plotdirectvectorsl3D(*args):
     plot(fig,image_height=800,image_width=800)
     fig.show()
 
-plotdirectvectorsl3D([(1,2,3),2,i],[(1,2,3),5,j],[(1,2,3),2,k],[(1,2,3),3,(1,1,1)],[(1,2,3),4,mi])
+plotdirectvectorsl3D([(1,2,3),2,(1,0,0)],[(1,2,3),5,(0,1,0)],[(1,2,3),2,(0,0,1)],[(1,2,3),3,(1,1,1)],[(1,2,3),4,mi])
 
-_i = (-1,0,0)
-_i
+
 
 """## **DEFINICIÓN DE UNA FUNCIÓN PARA GRAFICAR MULTIPLES VECTORES FIJOS O LIBRES EN EL ESPACIO EN TÉRMINOS DE SU MAGNITUD Y UN VECTOR DIRECCIÓN UNITARIO**
 La función tiene como sintaxis **plotdirectvectors3D** permite realizar la representación gráfica de multiples vectores fijos en el espacio segun su magnitud y vector dirección unitario.
