@@ -1314,4 +1314,4 @@ def plotdirectvectors3D(*args):
     plot(fig,image_height=800,image_width=800)
     fig.show()
 
-plotdirectvectors3D([(1,2,3),2,i],[2,(1/5,2/5,3/5)],[3,(1,1,1)])
+plotdirectvectors3D([(1,2,3),2,(1,0,0)],[2,(1/5,2/5,3/5)],[3,(1,1,1)])
