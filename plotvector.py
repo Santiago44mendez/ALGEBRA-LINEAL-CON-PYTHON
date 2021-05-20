@@ -828,13 +828,7 @@ La función tiene como sintaxis **plotdirectvectorsf3D** permite realizar la rep
 import plotly.graph_objs as go
 from plotly.offline import plot
 import numpy as np
-i = (1,0,0)
-j = (0,1,0)
-k = (0,0,1)
 
-mi = (-1,0,0)
-mj = (0,-1,0)
-mk = (0,0,-1)
 
 def plotdirectvectorsf3D(*args):
 
@@ -966,13 +960,7 @@ from plotly.offline import plot
 import numpy as np
 
 
-i = (1,0,0)
-j = (0,1,0)
-k = (0,0,1)
 
-mi = (-1,0,0)
-mj = (0,-1,0)
-mk = (0,0,-1)
 
 
 
@@ -1135,13 +1123,7 @@ from plotly.offline import plot
 import numpy as np
 
 
-i = (1,0,0)
-j = (0,1,0)
-k = (0,0,1)
 
-mi = (-1,0,0)
-mj = (0,-1,0)
-mk = (0,0,-1)
 
 
 
