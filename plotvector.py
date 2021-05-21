@@ -740,7 +740,7 @@ import numpy as np
 import math
 
 
-def plotpolarvectors2D(*args):
+def plotpolarvectors(*args):
 
     '''Función elaborada con el módulo Plotly y NumPy  para representar multiples vectores fijos y libres  en el plano en forma polar'''
     
@@ -825,7 +825,7 @@ def plotpolarvectors2D(*args):
     fig.update_layout(legend=dict(orientation="h",yanchor="bottom",y=1.02,xanchor="right",x=1, itemdoubleclick ="toggle"),title_font=dict(size=30, color='rgb(1,21,51)'),showlegend=True,width=500, height=480)
     fig.show()
 
-plotpolarvectors2D([4,"30°"],[(3.464,2),(5,"120°")],[(0.964,6.33),(4,"265°")])
+plotpolarvectors([4,"30°"],[(3.464,2),(5,"120°")],[(0.964,6.33),(4,"265°")])
 
 """## **DEFINICIÓN DE UNA FUNCIÓN PARA GRAFICAR MULTIPLES VECTORES FIJOS EN EL ESPACIO EN TÉRMINOS DE SU MAGNITUD Y UN VECTOR DIRECCIÓN UNITARIO**
 La función tiene como sintaxis **plotdirectvectorsf3D** permite realizar la representación gráfica de multiples vectores fijos en el espacio segun su magnitud y vector dirección unitario.
