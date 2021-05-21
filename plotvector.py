@@ -298,7 +298,7 @@ def plotvectors2D(*args):
     fig.add_trace(go.Scatter(x=[0],y=[0],mode='markers',marker=dict(color="#2a3f5f",size=9),showlegend=True,opacity=1,name="origen"))
 
     fig.add_annotation(ax = min(x)-0.54, axref = 'x', ay = 0, ayref = 'y',x = max(x)+0.5, xref = 'x', y = 0, yref = 'y',arrowwidth = 1.5, arrowhead = 2,arrowcolor = "#2a3f5f")
-    fig.add_annotation(ax = 0, axref = 'x', ay = min(y)-0.54, ayref = 'y',x = 0, xref = 'x', y = max(y)+0.5, yref = 'y',arrowwidth = 1.5, arrowhead = 2,arrowcolor = "#2a3f5f")
+    fig.add_annotation(ax = 0, axref = 'x', ay = min(y)-0.3, ayref = 'y',x = 0, xref = 'x', y = max(y)+0.5, yref = 'y',arrowwidth = 1.5, arrowhead = 2,arrowcolor = "#2a3f5f")
     fig.add_annotation(text="$x$", x=max(x)+0.5, y=-0.2, arrowhead=1, showarrow=False)
     fig.add_annotation(text="$y$", x=-0.2, y=max(y)+0.5, arrowhead=1, showarrow=False)
 
