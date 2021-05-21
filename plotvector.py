@@ -963,7 +963,7 @@ def plotdirectvectorsf3D(*args):
 
 plotdirectvectorsf3D([3,(np.cos(30),np.cos(20),np.cos(60))])
 
-np.cos(radians(30))
+
 
 """## **DEFINICIÓN DE UNA FUNCIÓN PARA GRAFICAR MULTIPLES VECTORES LIBRES EN EL ESPACIO EN TÉRMINOS DE SU MAGNITUD Y UN VECTOR DIRECCIÓN UNITARIO**
 La función tiene como sintaxis **plotdirectvectorsl3D** permite realizar la representación gráfica de multiples vectores fijos en el espacio segun su magnitud y vector dirección unitario.
