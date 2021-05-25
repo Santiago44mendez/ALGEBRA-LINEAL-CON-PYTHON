@@ -287,8 +287,8 @@ def plotvectors2D(*args):
     '''Función elaborada con el módulo Plotly y Numpy para representar multiples vectores fijos y libres en el plano  
     ademas de vectores equipolentes que inicien en un punto dado, acepta como argumento vectores de la librería SymPy.'''
     fig = go.Figure()
-    x = [0]
-    y = [0]
+    x = [0.1]
+    y = [0.1]
     for V in args:
 
         nombre = "vector "+ str(args.index(V)+1)
@@ -313,7 +313,6 @@ def plotvectors2D(*args):
             arrowhead=2,
             arrowsize=1.5,
             arrowwidth=2.3,
-            name="Markers and Text",
             arrowcolor = color)
 
         if  type(V[0]) == tuple:
