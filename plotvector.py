@@ -500,8 +500,8 @@ def plotvectors2D(*args):
             else:
 
                 color = randomRgbaColor()
-                a = np.array(V).astype(np.float64).tolist()[0][0]
-                b = np.array(V).astype(np.float64).tolist()[1][0]
+                a = np.array(V).astype(np.float64)[0][0]
+                b = np.array(V).astype(np.float64)[1][0]
                 x.append(a)
                 y.append(b)
                 #fig.add_trace(go.Scatter(x=[a],y=[b],mode='markers',marker=dict(color= color,size=3),showlegend=True,name=nombre))
