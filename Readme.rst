@@ -36,10 +36,12 @@ A continuación  se presenta la sintaxis adecuada para el manejo de esta funció
 Como ejemplo, podemos presentar el siguiente código:
  
    from sympy import Matrix 
+   
    A = Matrix([2,4])
    B = Matrix([-2])
+   
    plotvectors2D([(1,2),[5,3]],[3],B,[2,1], [(7,5),(2,8)],A,[(2,2),A],[5,"300"],[(2.5,-4.33),[4,"90"]])
-.. code-block:: rst
+  .. code-block:: rst
 
 
 plotvectors3D
