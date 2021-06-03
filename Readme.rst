@@ -23,10 +23,11 @@ plotvectors2D
 permite graficar multiples vectores libres y fijados en el origen del plano cartesiano, ademas de vectores equipolentes que inicien en un punto dado y vectores en forma polar, acepta como argumentos vectores definidos en la librería SymPy.
 
 *    ``plotvectors2D ([x,y])`` permite graficar el vector con punto inicial ``(0,0)`` y punto final ``(x,y)``
-*   ``from PlotLinearAlgebra.plotvectors import *``
+*   `` plotvectors2D ([A,B]) `` permite graficar el vector libre con punto inicial ``A = (x1,y1)`` y punto final ``(x2,y2)``
 
-
-*   **plotvectors3D**: permite graficar multiples vectores libres y fijados en el origen del espacio tridimensional, ademas de vectores equipolentes que inicien en un punto dado y vectores definidos desde su magnitud y con vector director unitario dado, acepta como argumentos vectores de la librería SymPy.
+plotvectors3D
+~~~~~~~~~~
+permite graficar multiples vectores libres y fijados en el origen del espacio tridimensional, ademas de vectores equipolentes que inicien en un punto dado y vectores definidos desde su magnitud y con vector director unitario dado, acepta como argumentos vectores de la librería SymPy.
 
 
 
