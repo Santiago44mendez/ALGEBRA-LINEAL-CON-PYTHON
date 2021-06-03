@@ -23,4 +23,11 @@ El módulo **plotvectors** contiene las funciones **plotvectors2D** para grafica
 
 *   **plotvectors3D**: permite graficar multiples vectores libres y fijados en el origen del espacio tridimensional, ademas de vectores equipolentes que inicien en un punto dado y vectores definidos desde su magnitud y con vector director unitario dado, acepta como argumentos vectores de la librería SymPy.
 
-You can use ``backticks`` for showing ``highlighted`` code.
+A cool bit of code::
+
+   Some cool Code
+
+.. code-block:: rst
+
+   A bit of **rst** which should be *highlighted* properly.
+
