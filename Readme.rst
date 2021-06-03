@@ -22,11 +22,11 @@ plotvectors2D
 ~~~~~~~~~~
 permite graficar multiples vectores libres y fijados en el origen del plano cartesiano, ademas de vectores equipolentes que inicien en un punto dado y vectores en forma polar, acepta como argumentos vectores definidos en la librería SymPy.
 
-*   ``plotvectors2D ([x,y])`` permite graficar el vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
-*   ``plotvectors2D (A)`` permite graficar el vector definido en la librería **sympy**  ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
-*   ``plotvectors2D ([P,Q])`` permite graficar el vector con punto inicial ``P = (x1,y1)`` y punto final ``Q = (x2,y2)``.
+*   ``plotvectors2D ([x,y])`` permite graficar un vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
+*   ``plotvectors2D (A)`` permite graficar un vector definido en la librería **sympy** como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
+*   ``plotvectors2D ([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1)`` y punto final ``Q = (x2,y2)``.
 *   ``plotvectors2D ([P,B])`` permite graficar un vector equipolente al vector ``B = [x,y]`` o  ``B = Matrix([x,y])`` con punto inicial en ``A = (x0,y0)``.
-*   ``plotvectors2D ([a,"b"])`` permite graficar el vector con magnitud ``a`` y ángulo médido en grados respecto al eje x positivo ``b``.
+*   ``plotvectors2D ([a,"b"])`` permite graficar un vector con magnitud o modulo ``a`` y ángulo médido en grados respecto al eje x positivo ``b``.
 
 plotvectors3D
 ~~~~~~~~~~
