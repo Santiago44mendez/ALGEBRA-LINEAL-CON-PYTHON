@@ -54,6 +54,7 @@ permite graficar multiples vectores libres y fijados en el origen del espacio tr
 *   ``plotvectors3D ([v1],[v2],...,[v3])`` permite graficar multiples vectores como los definidos anteriormente en el plano
 
 A cool bit of code::
+   
    from sympy import Matrix 
    A = Matrix([2,4])
    B = Matrix([-2])
