@@ -25,7 +25,7 @@ Permite visualizar multiples vectores en el plano cartesiano, que pueden tener u
 A continuación  se presenta la sintaxis adecuada para el manejo de esta función:
 
 *   ``plotvectors2D ([x,y])`` permite graficar un vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
-*   ``plotvectors2D ([x])`` permite graficar un vector unidimensional con punto inicial  en el origen de la recta numérica y punto final ``(x)``.
+*   ``plotvectors2D ([x])`` permite graficar un vector unidimensional en la recta numérica con punto inicial  en el origen y punto final ``(x)``.
 *   ``plotvectors2D (A)`` permite graficar un vector definido como ``A = [x,y]`` o en la librería **sympy** como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
 *   ``plotvectors2D ([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1)`` y punto final ``Q = (x2,y2)``.
 *   ``plotvectors2D ([P,B])`` permite graficar un vector equipolente al vector  definido como ``B = [x,y]`` o  ``B = Matrix([x,y])`` con punto inicial en ``P = (x0,y0)``.
