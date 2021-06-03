@@ -20,7 +20,7 @@ El módulo **plotvectors** contiene las funciones **plotvectors2D** para grafica
 
 plotvectors2D
 ~~~~~~~~~~
-permite graficar multiples vectores libres y fijados en el origen del plano cartesiano, ademas de vectores equipolentes que inicien en un punto dado y vectores en forma polar, acepta como argumentos vectores definidos en la librería SymPy.
+permite graficar multiples vectores libres y anclados en el origen del plano cartesiano, además de vectores equipolentes que inicien en un punto dado y vectores en forma polar  anclados o libres, acepta como argumentos vectores definidos en la librería SymPy.
 
 *   ``plotvectors2D ([x,y])`` permite graficar un vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
 *   ``plotvectors2D (A)`` permite graficar un vector ``A = [x,y]`` o definido en la librería **sympy** como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
