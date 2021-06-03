@@ -23,7 +23,7 @@ plotvectors2D
 permite graficar multiples vectores libres y anclados en el origen del plano cartesiano, además de vectores equipolentes que inicien en un punto dado y vectores en forma polar  anclados o libres, acepta como argumentos vectores definidos en la librería SymPy.
 
 *   ``plotvectors2D ([x,y])`` permite graficar un vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
-*   ``plotvectors2D (A)`` permite graficar un vector ``A = [x,y]`` o definido en la librería **sympy** como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
+*   ``plotvectors2D (A)`` permite graficar un vector definido como ``A = [x,y]`` o en la librería **sympy** como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
 *   ``plotvectors2D ([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1)`` y punto final ``Q = (x2,y2)``.
 *   ``plotvectors2D ([P,B])`` permite graficar un vector equipolente al vector  definido como ``B = [x,y]`` o  ``B = Matrix([x,y])`` con punto inicial en ``P = (x0,y0)``.
 *   ``plotvectors2D ([a,"b"])`` permite graficar un vector con magnitud ``a`` y ángulo en grados respecto al eje x positivo ``b``.
@@ -34,13 +34,13 @@ plotvectors3D
 ~~~~~~~~~~
 permite graficar multiples vectores libres y fijados en el origen del espacio tridimensional, ademas de vectores equipolentes que inicien en un punto dado y vectores definidos desde su magnitud y con vector director unitario dado, acepta como argumentos vectores de la librería SymPy.
 
-*   ``plotvectors2D ([x,y])`` permite graficar un vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
-*   ``plotvectors2D (A)`` permite graficar un vector ``A = [x,y]`` o definido en la librería **sympy** como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
-*   ``plotvectors2D ([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1)`` y punto final ``Q = (x2,y2)``.
-*   ``plotvectors2D ([P,B])`` permite graficar un vector equipolente al vector  definido como ``B = [x,y]`` o  ``B = Matrix([x,y])`` con punto inicial en ``P = (x0,y0)``.
-*   ``plotvectors2D ([a,"b"])`` permite graficar un vector con magnitud ``a`` y ángulo en grados respecto al eje x positivo ``b``.
-*   ``plotvectors2D ([P,a,"b"])`` permite graficar un vector con punto inicial en ``P = (x0,y0)``, magnitud ``a`` y ángulo en grados respecto al eje x positivo ``b``.
-*   ``plotvectors2D ([v1],[v2],...,[v3])`` permite graficar multiples vectores como los definidos anteriormente en el plano
+*   ``plotvectors3D ([x,y])`` permite graficar un vector con punto inicial ``(0,0,0)`` y punto final ``(x,y,z)``.
+*   ``plotvectors3D (A)`` permite graficar un vector definido como``A = [x,y,z]`` o en la librería **sympy** como ``A = Matrix([x,y,z])``.
+*   ``plotvectors3D ([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1,z1)`` y punto final ``Q = (x2,y2,z2)``.
+*   ``plotvectors3D ([P,B])`` permite graficar un vector equipolente al vector  definido como ``B = [x,y,z]`` o  ``B = Matrix([x,y,z])`` con punto inicial en ``P = (x0,y0,z0)``.
+*   ``plotvectors3D ([a,U])`` permite graficar un vector con magnitud ``a`` y vector director unitario definido como ``U = [x,y,z]`` o ``U = Matrix([x,y,z])``.
+*   ``plotvectors3D ([P,a,U])`` permite graficar un vector con punto inicial en ``P = (x0,y0,z0)``, magnitud ``a`` y vector director unitario definido como ``U = [x,y,z]`` o ``U = Matrix([x,y,z])``.
+*   ``plotvectors3D ([v1],[v2],...,[v3])`` permite graficar multiples vectores como los definidos anteriormente en el plano
 
 
 
