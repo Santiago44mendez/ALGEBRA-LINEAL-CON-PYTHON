@@ -1,7 +1,7 @@
 Descripción general
 -------
 
-Este módulo contiene algunas herramientas para la representación gráfica de vectores en el plano y en el espacio, diseñado para un curso de álgebra lineal con aplicaciones, contiene funciones para graficar vectores con punto inicial y punto final dado, o anclados en el origen, para su realización se utilizó la librería de graficación interactiva **Plotly** y la librería de arreglos multidimensionales **NumPy**, es compatible con vectores construidos como matriz columna en la librería **SymPy**. Puede servir como herramienta de visualización, para la validación del conocimiento por parte de los estudiantes y la resolución de problemas relacionados con conceptos vectoriales.
+Este módulo contiene algunas herramientas para la representación gráfica de vectores en el plano y en el espacio, diseñado para un curso de álgebra lineal con aplicaciones, contiene funciones para graficar vectores con punto inicial y punto final dado, o anclados en el origen, para su realización se utilizó la librería de graficación interactiva **Plotly** y la librería de arreglos multidimensionales **NumPy**, es compatible con vectores construidos como matriz columna en la librería **SymPy**. Puede servir como herramienta de visualización, para validar el conocimiento por parte de los estudiantes y para la resolución de problemas relacionados con conceptos vectoriales.
 
 Instalación
 -------
@@ -16,15 +16,16 @@ Para utilizar el módulo de graficación **plotvectors** debe importarlo de la s
 Funciones
 -------
 
-El módulo **plotvectors** contiene las funciones **plotvectors2D** que permite realizar la visualización de vectores en el plano cartesiano y **plotvectors3D** que permite la visualización de vectores en el espacio tridimensional, para definir puntos en estos módulos se usarán los objetos tipo tupla, por ejemplo el punto ``P =(x,y)`` o ``P =(x,y,z)`` y para definir vectores se usarán listas, por ejemplo el vector ``V =[x,y]`` o  ``V =[x,y,z]``.
+El submódulo **plotvectors** contiene las funciones **plotvectors2D** que permite realizar la visualización de vectores en el plano cartesiano y **plotvectors3D** que permite la visualización de vectores en el espacio tridimensional, para definir puntos en estos módulos se usarán los objetos tipo tupla, por ejemplo el punto ``P =(x,y)`` o ``P =(x,y,z)`` y para definir vectores se usarán listas, por ejemplo el vector ``V =[x,y]`` o  ``V =[x,y,z]``.
 
 plotvectors2D
 ~~~~~~~~~~
-Permite visualizar multiples vectores en el plano cartesiano, con punto inicial y un punto final dado, anclados en el origen del plano o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores) y vectores en forma polar anclados en el origen o con un punto inicial dado, acepta como argumentos vectores definidos como matriz columna en la librería SymPy.
+Permite visualizar multiples vectores en el plano cartesiano, que pueden tener un punto inicial y un punto final dado, anclados en el origen del plano o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores), y vectores en forma polar anclados en el origen o con un punto inicial dado, acepta como argumentos vectores definidos como matriz columna en la librería SymPy.
 
 A continuación  se presenta la sintaxis adecuada para el manejo de esta función:
 
 *   ``plotvectors2D ([x,y])`` permite graficar un vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
+*   ``plotvectors2D ([x])`` permite graficar un vector unidimensional con punto inicial  en el origen de la recta numérica y punto final ``(x)``.
 *   ``plotvectors2D (A)`` permite graficar un vector definido como ``A = [x,y]`` o en la librería **sympy** como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
 *   ``plotvectors2D ([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1)`` y punto final ``Q = (x2,y2)``.
 *   ``plotvectors2D ([P,B])`` permite graficar un vector equipolente al vector  definido como ``B = [x,y]`` o  ``B = Matrix([x,y])`` con punto inicial en ``P = (x0,y0)``.
