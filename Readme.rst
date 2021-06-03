@@ -1,8 +1,8 @@
-<p><strong>Descripci&oacute;n general</strong></p>
+**Descripción general**
 
 Este módulo contiene algunas herramientas para la representación gráfica de vectores en el plano y en el espacio, diseñado para un curso de álgebra lineal con aplicaciones, contiene funciones para graficar vectores libres o anclados en el origen, para su realización se utilizó la librería de graficación interactiva **Plotly** y de arreglos multidimensionales **NumPy**, es compatrible con vectores construidos en la librería **SymPy**. Puede servir como herramienta de visualización, para la validación del conocimiento por parte de los estudientes y para la resolución de problemas relacionados con conceptos vectoriales.
 
-#   **Instalación**
+ **Instalación**
 
 Para utilizarla se debe importar de la siguiente manera el módulo **plotvectors**: 
 
@@ -11,7 +11,7 @@ Para utilizarla se debe importar de la siguiente manera el módulo **plotvectors
 *   pip install PlotLinearAlgebra
 *   from PlotLinearAlgebra.plotvectors import *
 
-#   **Funciones**
+**Funciones**
 
 El módulo **plotvectors** contiene las funciones **plotvectors2D** para graficación de vectores en el plano y **plotvectors3D** para la graficación de vectores en el espacio tridimensional.
 
