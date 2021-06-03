@@ -20,7 +20,7 @@ El módulo **plotvectors** contiene las funciones **plotvectors2D** que permite 
 
 plotvectors2D
 ~~~~~~~~~~
-Permite visualizar multiples vectores en el plano cartesiano, estos pueden tener un punto inicial y un punto final dado, o estar anclados en el origen del plano, permite ademas representar vectores equipolentes a otro que inicie en un punto dado (traslación de vectores) y vectores en forma polar anclados en el origen o con un punto inicial dado, acepta como argumentos vectores definidos como matriz columna en la librería SymPy.
+Permite visualizar multiples vectores en el plano cartesiano, con punto inicial y un punto final dado, anclados en el origen del plano o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores) y vectores en forma polar anclados en el origen o con un punto inicial dado, acepta como argumentos vectores definidos como matriz columna en la librería SymPy.
 
 A continuación  se presenta la sintaxis adecuada para el manejo de esta función:
 
