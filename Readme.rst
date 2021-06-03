@@ -16,7 +16,7 @@ Para utilizar el módulo de graficación **plotvectors** debe importarlo de la s
 Funciones
 -------
 
-El módulo **plotvectors** contiene las funciones **plotvectors2D** para graficación de vectores en el plano y **plotvectors3D** para la graficación de vectores en el espacio tridimensional.
+El módulo **plotvectors** contiene las funciones **plotvectors2D** para graficación de vectores en el plano y **plotvectors3D** para la graficación de vectores en el espacio tridimensional, para definir puntos se usarán tuplas, por ejemplo el punto ``P =(x,y)`` y para definir vectores se usarán listas, por ejemplo el vector ``V =[x,y]``.
 
 plotvectors2D
 ~~~~~~~~~~
