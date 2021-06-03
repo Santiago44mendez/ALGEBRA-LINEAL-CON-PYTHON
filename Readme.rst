@@ -6,12 +6,12 @@ Este módulo contiene algunas herramientas para la representación gráfica de v
 Instalación
 -------
 
-Para utilizarla se debe importar de la siguiente manera el módulo **plotvectors**: 
+Para utilizar el módulo de graficación **plotvectors** debe importarlo de la siguiente manera:
 
 
 
-*   pip install PlotLinearAlgebra
-*   from PlotLinearAlgebra.plotvectors import *
+*    ``pip install PlotLinearAlgebra``
+*   ``from PlotLinearAlgebra.plotvectors import *``
 
 Funciones
 -------
