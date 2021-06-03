@@ -18,10 +18,11 @@ Funciones
 
 El módulo **plotvectors** contiene las funciones **plotvectors2D** para graficación de vectores en el plano y **plotvectors3D** para la graficación de vectores en el espacio tridimensional.
 
+plotvectors2D
+~~~~~~~~~~
+permite graficar multiples vectores libres y fijados en el origen del plano cartesiano, ademas de vectores equipolentes que inicien en un punto dado y vectores en forma polar, acepta como argumentos vectores definidos en la librería SymPy.
 
-*    **plotvectors2D**: permite graficar multiples vectores libres y fijados en el origen del plano cartesiano, ademas de vectores equipolentes que inicien en un punto dado y vectores en forma polar, acepta como argumentos vectores definidos en la librería SymPy.
-
-*    ``pip install PlotLinearAlgebra``
+*    ``plotvectors2D ([x,y])`` permite graficar el vector con punto inicial ``(0,0)`` y punto final ``(x,y)``
 *   ``from PlotLinearAlgebra.plotvectors import *``
 
 
