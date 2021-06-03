@@ -48,12 +48,11 @@ permite graficar multiples vectores libres y fijados en el origen del espacio tr
 A cool bit of code::
 
    A = Matrix([2,4])
-B = Matrix([-2])
-plotvectors2D([(1,2),[5,3]],[3],B,[2,1], [(7,5),(2,8)],A,[(2,2),A],[5,"300"],[(2.5,-4.33),[4,"90"]])
-
+   B = Matrix([-2])
+   plotvectors2D([(1,2),[5,3]],[3],B,[2,1], [(7,5),(2,8)],A,[(2,2),A],[5,"300"],[(2.5,-4.33),[4,"90"]])
 .. code-block:: rst
 
-   A bit of **rst** which should be *highlighted* properly.
+ 
 
 
 
