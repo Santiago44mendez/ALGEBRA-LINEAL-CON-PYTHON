@@ -16,11 +16,13 @@ Para utilizar el módulo de graficación **plotvectors** debe importarlo de la s
 Funciones
 -------
 
-El módulo **plotvectors** contiene las funciones **plotvectors2D** que permite realizar la visualización de vectores en el plano cartesiano y **plotvectors3D** que permite la visualización de vectores en el espacio tridimensional, para definir puntos en estos módulos se usarán los objetos tipo tupla, por ejemplo el punto ``P =(x,y)`` y para definir vectores se usarán listas, por ejemplo el vector ``V =[x,y]``.
+El módulo **plotvectors** contiene las funciones **plotvectors2D** que permite realizar la visualización de vectores en el plano cartesiano y **plotvectors3D** que permite la visualización de vectores en el espacio tridimensional, para definir puntos en estos módulos se usarán los objetos tipo tupla, por ejemplo el punto ``P =(x,y)`` o ``P =(x,y,z)`` y para definir vectores se usarán listas, por ejemplo el vector ``V =[x,y]`` o  ``V =[x,y,z]``.
 
 plotvectors2D
 ~~~~~~~~~~
-Permite visualizar multiples vectores en el plano cartesiano, estos pueden tener un punto inicial y un punto final o estar anclados en el origen del plano, permite ademas representar un vector equipolente a otro que inicie en un punto dado (traslación de vectores) y vectores en forma polar anclados en el origen o con un punto inicial dado, acepta como argumentos vectores definidos como matriz columna en la librería SymPy.
+Permite visualizar multiples vectores en el plano cartesiano, estos pueden tener un punto inicial y un punto final dado, o estar anclados en el origen del plano, permite ademas representar vectores equipolentes a otro que inicie en un punto dado (traslación de vectores) y vectores en forma polar anclados en el origen o con un punto inicial dado, acepta como argumentos vectores definidos como matriz columna en la librería SymPy.
+
+A continuación  se presenta la sintaxis adecuada para el manejo de esta función:
 
 *   ``plotvectors2D ([x,y])`` permite graficar un vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
 *   ``plotvectors2D (A)`` permite graficar un vector definido como ``A = [x,y]`` o en la librería **sympy** como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
