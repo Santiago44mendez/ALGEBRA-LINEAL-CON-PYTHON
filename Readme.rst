@@ -45,5 +45,15 @@ permite graficar multiples vectores libres y fijados en el origen del espacio tr
 *   ``plotvectors3D ([P,a,U])`` permite graficar un vector con punto inicial en ``P = (x0,y0,z0)``, magnitud ``a`` y vector director unitario definido como ``U = [x,y,z]`` o ``U = Matrix([x,y,z])``.
 *   ``plotvectors3D ([v1],[v2],...,[v3])`` permite graficar multiples vectores como los definidos anteriormente en el plano
 
+A cool bit of code::
+
+   A = Matrix([2,4])
+B = Matrix([-2])
+plotvectors2D([(1,2),[5,3]],[3],B,[2,1], [(7,5),(2,8)],A,[(2,2),A],[5,"300"],[(2.5,-4.33),[4,"90"]])
+
+.. code-block:: rst
+
+   A bit of **rst** which should be *highlighted* properly.
+
 
 
