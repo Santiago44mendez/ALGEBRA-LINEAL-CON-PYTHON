@@ -35,7 +35,7 @@ plotvectors3D
 permite graficar multiples vectores libres y fijados en el origen del espacio tridimensional, ademas de vectores equipolentes que inicien en un punto dado y vectores definidos desde su magnitud y con vector director unitario dado, acepta como argumentos vectores de la librería SymPy.
 
 *   ``plotvectors3D ([x,y])`` permite graficar un vector con punto inicial ``(0,0,0)`` y punto final ``(x,y,z)``.
-*   ``plotvectors3D (A)`` permite graficar un vector definido como``A = [x,y,z]`` o en la librería **sympy** como ``A = Matrix([x,y,z])``.
+*   ``plotvectors3D (A)`` permite graficar un vector definido como ``A = [x,y,z]`` o en la librería **sympy** como ``A = Matrix([x,y,z])``.
 *   ``plotvectors3D ([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1,z1)`` y punto final ``Q = (x2,y2,z2)``.
 *   ``plotvectors3D ([P,B])`` permite graficar un vector equipolente al vector  definido como ``B = [x,y,z]`` o  ``B = Matrix([x,y,z])`` con punto inicial en ``P = (x0,y0,z0)``.
 *   ``plotvectors3D ([a,U])`` permite graficar un vector con magnitud ``a`` y vector director unitario definido como ``U = [x,y,z]`` o ``U = Matrix([x,y,z])``.
