@@ -35,18 +35,18 @@ Como ejemplo, podemos presentar el siguiente código donde A,B,C,D se definen co
 
 <html>
   <head>
-   from sympy import Matrix
+       from sympy import Matrix
    
-   A = Matrix([-3,8])
-   B = Matrix([3])
+       A = Matrix([-3,8])
+       B = Matrix([3])
 
-   C = [3,10]
-   D = [-4]
+       C = [3,10]
+       D = [-4]
    
-   P = (7,5)
-   Q = (2,12)
+       P = (7,5)
+       Q = (2,12)
    
-   plotvectors2D([4,6],[6],A,B,C,D,[P,Q],[P,A],[P,C],[(7,2),C],[(-4,12),D],[8,"300"],[(4,-6.928),6,"90"]) 
+       plotvectors2D([4,6],[6],A,B,C,D,[P,Q],[P,A],[P,C],[(7,2),C],[(-4,12),D],[8,"300"],[(4,-6.928),6,"90"]) 
    </head>
  </html>
 
