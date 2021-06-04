@@ -48,7 +48,6 @@ Como ejemplo, podemos presentar el siguiente código donde A,B,C,D se definen co
            Q = (2,12)
    
            plotvectors2D([4,6],[6],A,B,C,D,[P,Q],[P,A],[P,C],[(7,2),C],[(-4,12),D],[8,"300"],[(4,-6.928),6,"90"]) 
-       
       </head>
   </html>
 
@@ -86,7 +85,6 @@ Como ejemplo, podemos presentar el siguiente código donde A,B se define como ve
            U = (1/norm)*A
    
            plotvectors3D([1,2,3],B,A, [P,Q],[P,B],[(6,3,5),A],[(1,-2,3),(5,-4,-6)],[3,i],[(1,2,3),3,j],[5,K],[(4,5,6),8,U])
-       
       </head>
  </html>
 
