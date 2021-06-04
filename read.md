@@ -15,8 +15,8 @@ Para utilizar el módulo de graficación **plotvectors** debe importarlo de la s
 
 El submódulo **plotvectors** contiene las funciones **plotvectors2D** que permite realizar la visualización de vectores en el plano cartesiano y **plotvectors3D** que permite la visualización de vectores en el espacio tridimensional, para definir puntos en estos módulos se usarán los objetos tipo tupla, por ejemplo el punto ``P =(x,y)`` o ``P =(x,y,z)`` y para definir vectores se usarán listas, por ejemplo el vector unidimensional ``V =[x]``, bidimensional ``V =[x,y]`` o tridimensional ``V =[x,y,z]``,  también podemos definir vectores como una matriz columna, haciendo uso de la librería sympy, de la forma ``V =Matrix([x])``, ``V =Matrix([x,y])`` o ``V =Matrix([x,y,z])`` dependiendo de la dimensión del vector.
 
-plotvectors2D
-~~~~~~~~~~~~~
+## **plotvectors2D**
+
 
 Permite visualizar múltiples vectores en el plano cartesiano, que pueden tener un punto inicial y un punto final dado, estar anclados en el origen del plano, o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores), y vectores en forma polar anclados en el origen o con un punto inicial dado, acepta como argumentos vectores unidimensionales o bidimensionales definidos como matriz columna en la librería SymPy.
 
@@ -46,8 +46,8 @@ Como ejemplo, podemos presentar el siguiente código donde A,B,C,D se definen co
 
    plotvectors2D([4,6],[6],A,B,C,D,[P,Q],[P,A],[P,C],[(7,2),C],[(-4,12),D],[8,"300"],[(4,-6.928),6,"90"]) 
  
-plotvectors3D
-~~~~~~~~~~~~~
+## **plotvectors3D**
+
 Permite visualizar multiples vectores en el espacio tridimensional, que pueden tener un punto inicial y un punto final dado, estar anclados en el origen del espacio, o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores), y vectores desde una magnitud y un vector director unitario dado, acepta como argumentos vectores columna tridimensionales definidos en la librería SymPy.
 
 *   ``plotvectors3D([x,y])`` permite graficar un vector con punto inicial ``(0,0,0)`` y punto final ``(x,y,z)``.
