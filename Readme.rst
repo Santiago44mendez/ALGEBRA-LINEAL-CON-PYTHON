@@ -24,14 +24,14 @@ Permite visualizar multiples vectores en el plano cartesiano, que pueden tener u
 
 A continuación  se presenta la sintaxis adecuada para el manejo de esta función:
 
-*   ``plotvectors2D ([x,y])`` permite graficar un vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
-*   ``plotvectors2D ([x])`` permite graficar un vector unidimensional en la recta numérica con punto inicial  en el origen y punto final ``(x)``.
-*   ``plotvectors2D (A)`` permite graficar un vector definido como ``A = [x,y]`` o  ``A = [x]``, usando la librería **sympy** se pueden definir como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
-*   ``plotvectors2D ([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1)`` y punto final ``Q = (x2,y2)``.
-*   ``plotvectors2D ([P,V])`` permite graficar un vector equipolente a un vector definido como: ``V = [x,y]``, ``V = [x]``, ``V = Matrix([x,y])`` o ``V = Matrix([x])`` con punto inicial en ``P = (x0,y0)``.
-*   ``plotvectors2D ([a,"b"])`` permite graficar un vector con magnitud ``a`` y ángulo en grados respecto al eje x positivo ``b``.
-*   ``plotvectors2D ([P,a,"b"])`` permite graficar un vector con punto inicial en ``P = (x0,y0)``, magnitud ``a`` y ángulo en grados respecto al eje x positivo ``b``.
-*   ``plotvectors2D ([v1],[v2],...,[v3])`` permite graficar multiples vectores en el plano definidos de diferente forma.
+*   ``plotvectors2D([x,y])`` permite graficar un vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
+*   ``plotvectors2D([x])`` permite graficar un vector unidimensional en la recta numérica con punto inicial  en el origen y punto final ``(x)``.
+*   ``plotvectors2D(A)`` permite graficar un vector definido como ``A = [x,y]`` o  ``A = [x]``, usando la librería **sympy** se pueden definir como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
+*   ``plotvectors2D([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1)`` y punto final ``Q = (x2,y2)``.
+*   ``plotvectors2D([P,V])`` permite graficar un vector equipolente a un vector definido como: ``V = [x,y]``, ``V = [x]``, ``V = Matrix([x,y])`` o ``V = Matrix([x])`` con punto inicial en ``P = (x0,y0)``.
+*   ``plotvectors2D([a,"b"])`` permite graficar un vector con magnitud ``a`` y ángulo en grados respecto al eje x positivo ``b``.
+*   ``plotvectors2D([P,a,"b"])`` permite graficar un vector con punto inicial en ``P = (x0,y0)``, magnitud ``a`` y ángulo en grados respecto al eje x positivo ``b``.
+*   ``plotvectors2D([v1],[v2],...,[v3])`` permite graficar multiples vectores en el plano definidos de diferente forma.
 
 Como ejemplo, podemos presentar el siguiente código donde A,B,C,D son variables definidas como vectores y P y Q definidas como puntos ::
    
