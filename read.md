@@ -32,6 +32,14 @@ A continuación  se presenta la sintaxis adecuada para el manejo de esta funció
 *   ``plotvectors2D([v1],[v2],...,[v3])`` permite graficar múltiples vectores en el plano definidos de diferente forma.
 
 Como ejemplo, podemos presentar el siguiente código donde A,B,C,D se definen como vectores y P y Q se definen como puntos:
+
+ <html>
+      <head>
+         
+         from sympy import Matrix
+         
+      </head>
+    </html>
    
    from sympy import Matrix
    
