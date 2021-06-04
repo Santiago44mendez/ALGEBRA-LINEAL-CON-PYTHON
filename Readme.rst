@@ -84,7 +84,7 @@ Como ejemplo, podemos presentar el siguiente código::
   U = (1/norm)*A
   U
 
-plotvectors3D([1,2,3],B,A, [P,Q],[P,B],[(6,3,5),A],[(1,-2,3),(5,-4,-6)],[3,i],[(1,2,3),3,j],[5,K],[(4,5,6),8,U])
+  plotvectors3D([1,2,3],B,A, [P,Q],[P,B],[(6,3,5),A],[(1,-2,3),(5,-4,-6)],[3,i],[(1,2,3),3,j],[5,K],[(4,5,6),8,U])
 .. code-block:: rst
    
    
