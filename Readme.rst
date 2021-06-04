@@ -33,17 +33,17 @@ A continuación  se presenta la sintaxis adecuada para el manejo de esta funció
 *   ``plotvectors2D ([P,a,"b"])`` permite graficar un vector con punto inicial en ``P = (x0,y0)``, magnitud ``a`` y ángulo en grados respecto al eje x positivo ``b``.
 *   ``plotvectors2D ([v1],[v2],...,[v3])`` permite graficar multiples vectores en el plano definidos de diferente forma.
 
-Como ejemplo, podemos presentar el siguiente código::
+Como ejemplo, podemos presentar el siguiente código donde A,B,C,D son variables definidas como vectores y P y Q definidas como puntos ::
    
    from sympy import Matrix
    
-   V1 = Matrix([-3,8])
-   V2 = Matrix([3])
+   A = Matrix([-3,8])
+   B = Matrix([3])
 
-   V3 = [3,10]
-   V4 = [-4]
+   C = [3,10]
+   D = [-4]
    
-   P1 = (7,5)
+   P = (7,5)
    Q = (2,12)
 
    plotvectors2D([4,6],[6],A,B,C,D,[P,Q],[P,A],[P,C],[(7,2),C],[(-4,12),D],[8,"300"],[(4,-6.928),6,"90"])
