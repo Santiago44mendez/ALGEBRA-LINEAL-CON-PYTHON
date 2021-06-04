@@ -35,6 +35,7 @@ Como ejemplo, podemos presentar el siguiente código donde A,B,C,D se definen co
 
  <html>
       <head>
+           
            from sympy import Matrix
    
            A = Matrix([-3,8])
