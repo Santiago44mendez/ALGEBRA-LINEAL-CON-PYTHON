@@ -65,26 +65,26 @@ Permite visualizar multiples vectores en el espacio tridimensional, que pueden t
 
 Como ejemplo, podemos presentar el siguiente código donde A,B se define como vectores, i,j,k como vectores unitario y P y Q como puntos:
    
- <html>
-      <head>
+<html>
+   <head>
        
-           from sympy import Matrix
-           A = Matrix([6,2,3])
-           B = [3,4,5]
+         from sympy import Matrix
+         A = Matrix([6,2,3])
+         B = [3,4,5]
    
-           P = (-4,2,3)
-           Q = (5,4,6)
+         P = (-4,2,3)
+         Q = (5,4,6)
    
-           i = [1,0,0]
-           j = [0,1,0]
-           K = [0,0,1]
+         i = [1,0,0]
+         j = [0,1,0]
+         K = [0,0,1]
 
-           norm = A.norm()
-           norm
-           U = (1/norm)*A
+         norm = A.norm()
+         norm
+         U = (1/norm)*A
    
-           plotvectors3D([1,2,3],B,A, [P,Q],[P,B],[(6,3,5),A],[(1,-2,3),(5,-4,-6)],[3,i],[(1,2,3),3,j],[5,K],[(4,5,6),8,U])
-      </head>
- </html>
+         plotvectors3D([1,2,3],B,A, [P,Q],[P,B],[(6,3,5),A],[(1,-2,3),(5,-4,-6)],[3,i],[(1,2,3),3,j],[5,K],[(4,5,6),8,U])
+    </head>
+</html>
 
    
