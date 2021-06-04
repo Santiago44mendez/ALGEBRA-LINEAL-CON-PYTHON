@@ -63,7 +63,7 @@ Permite visualizar multiples vectores en el espacio tridimensional, que pueden t
 *   ``plotvectors3D ([v1],[v2],...,[v3])`` permite graficar multiples vectores en el espacio definidos de diferente forma.
 
 
-Como ejemplo, podemos presentar el siguiente código::
+Como ejemplo, podemos presentar el siguiente código donde A,B se define como vectores, i,j,k como vectores unitario y P y Q como puntos::
    
    
   from sympy import Matrix
