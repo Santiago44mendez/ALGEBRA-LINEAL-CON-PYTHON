@@ -26,7 +26,7 @@ A continuación  se presenta la sintaxis adecuada para el manejo de esta funció
 
 *   ``plotvectors2D([x,y])`` permite graficar un vector con punto inicial ``(0,0)`` y punto final ``(x,y)``.
 *   ``plotvectors2D([x])`` permite graficar un vector unidimensional en la recta numérica con punto inicial  en el origen y punto final ``(x)``.
-*   ``plotvectors2D(A)`` permite graficar un vector definido como ``A = [x,y]`` o  ``A = [x]``, usando la librería **sympy** se pueden definir como ``A = Matrix([x,y])`` o ``A = Matrix([x])``.
+*   ``plotvectors2D(V)`` permite graficar un vector definido como ``V = [x,y]`` o  ``V = [x]``, usando la librería **sympy** se pueden definir como ``V = Matrix([x,y])`` o ``V = Matrix([x])``.
 *   ``plotvectors2D([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1)`` y punto final ``Q = (x2,y2)``.
 *   ``plotvectors2D([P,V])`` permite graficar un vector equipolente a un vector definido como: ``V = [x,y]``, ``V = [x]``, ``V = Matrix([x,y])`` o ``V = Matrix([x])`` con punto inicial en ``P = (x0,y0)``.
 *   ``plotvectors2D([a,"b"])`` permite graficar un vector con magnitud ``a`` y ángulo en grados respecto al eje x positivo ``b``.
@@ -55,7 +55,7 @@ plotvectors3D
 Permite visualizar multiples vectores en el espacio tridimensional, que pueden tener un punto inicial y un punto final dado, estar anclados en el origen del espacio, o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores), y vectores desde una magnitud y un vector director unitario dado, acepta como argumentos vectores columna tridimensionales definidos en la librería SymPy.
 
 *   ``plotvectors3D([x,y])`` permite graficar un vector con punto inicial ``(0,0,0)`` y punto final ``(x,y,z)``.
-*   ``plotvectors3D(A)`` permite graficar un vector definido como ``A = [x,y,z]`` o en la librería **sympy** como ``A = Matrix([x,y,z])``.
+*   ``plotvectors3D(V)`` permite graficar un vector definido como ``V = [x,y,z]`` o en la librería **sympy** como ``V = Matrix([x,y,z])``.
 *   ``plotvectors3D([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1,z1)`` y punto final ``Q = (x2,y2,z2)``.
 *   ``plotvectors3D([P,V])`` permite graficar un vector equipolente al vector  definido como ``V = [x,y,z]`` o  ``V = Matrix([x,y,z])`` con punto inicial en ``P = (x0,y0,z0)``.
 *   ``plotvectors3D([a,U])`` permite graficar un vector con magnitud ``a`` y vector director unitario definido como ``U = [x,y,z]`` o ``U = Matrix([x,y,z])``.
