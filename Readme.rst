@@ -35,7 +35,6 @@ A continuación  se presenta la sintaxis adecuada para el manejo de esta funció
 
 Como ejemplo, podemos presentar el siguiente código::
    
-   
    from sympy import Matrix
    
    A = Matrix([-3,8])
