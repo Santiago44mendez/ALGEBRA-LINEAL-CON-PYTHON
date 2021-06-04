@@ -52,7 +52,7 @@ Como ejemplo, podemos presentar el siguiente código donde A,B,C,D son variables
 
 plotvectors3D
 ~~~~~~~~~~
-permite graficar multiples vectores libres y fijados en el origen del espacio tridimensional, ademas de vectores equipolentes que inicien en un punto dado y vectores definidos desde su magnitud y con vector director unitario dado, acepta como argumentos vectores de la librería SymPy.
+Permite visualizar multiples vectores en el espacio tridimensional, que pueden tener un punto inicial y un punto final dado, estar anclados en el origen del plano, o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores), y vectoresy vectores definidos desde su magnitud y con vector director unitario dado, acepta como argumentos vectores de la librería SymPy.
 
 *   ``plotvectors3D ([x,y])`` permite graficar un vector con punto inicial ``(0,0,0)`` y punto final ``(x,y,z)``.
 *   ``plotvectors3D (A)`` permite graficar un vector definido como ``A = [x,y,z]`` o en la librería **sympy** como ``A = Matrix([x,y,z])``.
