@@ -20,7 +20,7 @@ El submódulo **plotvectors** contiene las funciones **plotvectors2D** que permi
 
 plotvectors2D
 ~~~~~~~~~~
-Permite visualizar multiples vectores en el plano cartesiano, que pueden tener un punto inicial y un punto final dado, estar anclados en el origen del plano, o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores), y vectores en forma polar anclados en el origen o con un punto inicial dado, acepta como argumentos vectores definidos como matriz columna en la librería SymPy.
+Permite visualizar multiples vectores en el plano cartesiano, que pueden tener un punto inicial y un punto final dado, estar anclados en el origen del plano, o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores), y vectores en forma polar anclados en el origen o con un punto inicial dado, acepta como argumentos vectores unidimensionales o bidimensionales definidos como matriz columna en la librería SymPy.
 
 A continuación  se presenta la sintaxis adecuada para el manejo de esta función:
 
@@ -52,15 +52,16 @@ Como ejemplo, podemos presentar el siguiente código donde A,B,C,D se definen co
 
 plotvectors3D
 ~~~~~~~~~~
-Permite visualizar multiples vectores en el espacio tridimensional, que pueden tener un punto inicial y un punto final dado, estar anclados en el origen del plano, o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores), y vectoresy vectores definidos desde su magnitud y con vector director unitario dado, acepta como argumentos vectores de la librería SymPy.
+Permite visualizar multiples vectores en el espacio tridimensional, que pueden tener un punto inicial y un punto final dado, estar anclados en el origen del espacio, o vectores equipolentes a otro que inicie en un punto dado (traslación de vectores), y vectores desde una magnitud y un vector director unitario dado, acepta como argumentos vectores columna tridimensionales definidos en la librería SymPy.
 
-*   ``plotvectors3D ([x,y])`` permite graficar un vector con punto inicial ``(0,0,0)`` y punto final ``(x,y,z)``.
-*   ``plotvectors3D (A)`` permite graficar un vector definido como ``A = [x,y,z]`` o en la librería **sympy** como ``A = Matrix([x,y,z])``.
-*   ``plotvectors3D ([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1,z1)`` y punto final ``Q = (x2,y2,z2)``.
-*   ``plotvectors3D ([P,B])`` permite graficar un vector equipolente al vector  definido como ``B = [x,y,z]`` o  ``B = Matrix([x,y,z])`` con punto inicial en ``P = (x0,y0,z0)``.
-*   ``plotvectors3D ([a,U])`` permite graficar un vector con magnitud ``a`` y vector director unitario definido como ``U = [x,y,z]`` o ``U = Matrix([x,y,z])``.
-*   ``plotvectors3D ([P,a,U])`` permite graficar un vector con punto inicial en ``P = (x0,y0,z0)``, magnitud ``a`` y vector director unitario definido como ``U = [x,y,z]`` o ``U = Matrix([x,y,z])``.
-*   ``plotvectors3D ([v1],[v2],...,[v3])`` permite graficar multiples vectores como los definidos anteriormente en el plano
+*   ``plotvectors3D([x,y])`` permite graficar un vector con punto inicial ``(0,0,0)`` y punto final ``(x,y,z)``.
+*   ``plotvectors3D(A)`` permite graficar un vector definido como ``A = [x,y,z]`` o en la librería **sympy** como ``A = Matrix([x,y,z])``.
+*   ``plotvectors3D([P,Q])`` permite graficar un vector con punto inicial ``P = (x1,y1,z1)`` y punto final ``Q = (x2,y2,z2)``.
+*   ``plotvectors3D([P,B])`` permite graficar un vector equipolente al vector  definido como ``B = [x,y,z]`` o  ``B = Matrix([x,y,z])`` con punto inicial en ``P = (x0,y0,z0)``.
+*   ``plotvectors3D([a,U])`` permite graficar un vector con magnitud ``a`` y vector director unitario definido como ``U = [x,y,z]`` o ``U = Matrix([x,y,z])``.
+*   ``plotvectors3D([P,a,U])`` permite graficar un vector con punto inicial en ``P = (x0,y0,z0)``, magnitud ``a`` y vector director unitario definido como ``U = [x,y,z]`` o ``U = Matrix([x,y,z])``.
+*   ``plotvectors3D ([v1],[v2],...,[v3])`` permite graficar multiples vectores en el espacio definidos de diferente forma.
+
 
 Como ejemplo, podemos presentar el siguiente código::
    
