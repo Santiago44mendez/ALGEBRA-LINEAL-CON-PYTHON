@@ -2053,33 +2053,7 @@ def plot3D(*args):
     plt(fig,image_height=800,image_width=800)
     fig.show()
 
-"""## **Prueba función plot3D**"""
 
-from sympy import Matrix
-x,y,z = symbols("x y z")
-
-A = Matrix([6,2,3])
-B = [3,4,5]
-
-P = (-4,2,3)
-Q = (5,4,6)
-
-i = [1,0,0]
-j = [0,1,0]
-K = [0,0,1]
-
-norma = A.norm()
-U = (1/norma)*A
-
-recta = ['5t+2','2t-4','t+3']
-
-plano1 = Eq(4*x+3*y-5*z,3)
-plano2 = Eq(3*y-5*z,0)
-plano3 = '2x+3y+5z-3=0'
-punto = (10,15,8)
-
-plot3D([1,2,3], [P,Q], [P,B], [(6,3,5),A], [(1,-2,3),(5,-4,-6)], [3,i], [(1,2,3),3,j],
-       [5,K], [(4,5,6),8,U], A, B, plano3, recta, plano1, plano2, punto)
 
 """## **Definición función planes**"""
 
@@ -2747,7 +2721,7 @@ def lines(*args):
     plt(fig,image_height=800,image_width=800)
     fig.show()
 
-lines(["(6/5)t+2","(13/5)t-(4/3)","t"],["2t+3","5t-1","3t+2",3],["-5t+3","2t-1","4t+2"],["2t+3","-4t-1","5t+2"],['5t+2','2t-4','t+3'])
+
 
 """## **Definición función para crear puntos**"""
 
