@@ -16,6 +16,7 @@ from sympy import *
 import random 
 import math
 import re as rep
+t = Symbol("t")
 
 def conv(elemento):
     if elemento == '' or elemento == '+' or elemento == '  ' or elemento == ' + 'or elemento == ' ':
